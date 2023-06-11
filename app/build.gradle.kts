@@ -22,8 +22,8 @@ plugins {
     id("nowinandroid.android.application.jacoco")
     id("nowinandroid.android.hilt")
     id("jacoco")
-    id("nowinandroid.android.application.firebase")
-    id("com.google.android.gms.oss-licenses-plugin")
+//    id("nowinandroid.android.application.firebase")
+//    id("com.google.android.gms.oss-licenses-plugin")
 }
 
 android {
