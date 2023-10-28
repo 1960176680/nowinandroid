@@ -40,6 +40,8 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "nowinandroid"
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
 include(":app-nia-catalog")
 include(":benchmarks")
