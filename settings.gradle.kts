@@ -18,6 +18,8 @@ pluginManagement {
     includeBuild("build-logic")
     repositories {
         mavenLocal()
+        //腾讯云镜像, 代理了 google() jcenter() mavenCentral() 3个仓库
+        maven(url = "https://mirrors.cloud.tencent.com/nexus/repository/maven-public")
         maven {setUrl( "https://maven.aliyun.com/repository/central")}
 
         maven {setUrl( "https://maven.aliyun.com/repository/google")}
@@ -31,6 +33,8 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         mavenLocal()
+        //腾讯云镜像, 代理了 google() jcenter() mavenCentral() 3个仓库
+        maven(url = "https://mirrors.cloud.tencent.com/nexus/repository/maven-public")
         maven {setUrl("https://maven.aliyun.com/repository/central")}
 
         maven {setUrl("https://maven.aliyun.com/repository/google")}
