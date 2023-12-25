@@ -22,8 +22,8 @@ plugins {
     alias(libs.plugins.nowinandroid.android.application.jacoco)
     alias(libs.plugins.nowinandroid.android.hilt)
     id("jacoco")
-    alias(libs.plugins.nowinandroid.android.application.firebase)
-    id("com.google.android.gms.oss-licenses-plugin")
+//    alias(libs.plugins.nowinandroid.android.application.firebase)
+//    id("com.google.android.gms.oss-licenses-plugin")
     alias(libs.plugins.baselineprofile)
     alias(libs.plugins.roborazzi)
 }
